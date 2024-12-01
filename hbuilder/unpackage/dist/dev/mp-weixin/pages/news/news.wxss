@@ -1,0 +1,222 @@
+.container {
+  width: 100%;
+  height: 200%;
+  background-color: #eeeeee;
+}
+.container .nav {
+  margin: 10rpx auto;
+  width: 100%;
+  background-color: #ffffff;
+  border: solid 1px #eeeeee;
+  display: flex;
+  justify-content: space-between;
+}
+.container .nav .nav-item {
+  margin-top: 20rpx;
+  text-align: center;
+  width: 16%;
+  height: 28rpx;
+  font-family: MicrosoftYaHeiUILight;
+  font-size: 28rpx;
+  letter-spacing: 0px;
+  color: #545353;
+}
+.container .nav .active {
+  font-size: 32rpx;
+  border-bottom: 6rpx solid red;
+  padding-bottom: 10rpx;
+}
+.container .fukuan {
+  width: 710rpx;
+  height: 520rpx;
+  background-color: #ffffff;
+  border-radius: 5rpx;
+  margin: 0 auto;
+}
+.container .fukuan .top {
+  width: 95%;
+  margin: 30rpx auto;
+  height: 45rpx;
+  display: flex;
+  justify-content: space-between;
+  padding: 20rpx 10rpx;
+  border-bottom: 1rpx solid #d7d7d7;
+}
+.container .fukuan .top .left {
+  color: #dfaaab;
+}
+.container .fukuan .top .right {
+  color: #d7d7d7;
+}
+.container .fukuan .bottom {
+  display: flex;
+  margin-top: 30rpx;
+  padding-bottom: 20rpx;
+  border-bottom: 1rpx solid #d7d7d7;
+}
+.container .fukuan .bottom .bleft {
+  width: 200rpx;
+  height: 200rpx;
+  background-color: #ffffff;
+  border-radius: 3px;
+  margin-left: 30rpx;
+}
+.container .fukuan .bottom .bleft image {
+  width: 100%;
+  height: 100%;
+}
+.container .fukuan .bottom .bright {
+  width: 500rpx;
+  margin-left: 20rpx;
+  align-items: center;
+}
+.container .fukuan .bottom .bright .rightone {
+  font-size: 28rpx;
+}
+.container .fukuan .bottom .bright .righttwo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 34rpx;
+}
+.container .fukuan .bottom .bright .righttwo .two-right {
+  margin-right: 20rpx;
+}
+.container .fukuan .bottom .bright .righttwo .two-left {
+  color: #d7d7d7;
+}
+.container .fukuan .bottom .bright .rightthree {
+  position: absolute;
+  color: #999999;
+  right: 40rpx;
+}
+.container .fukuan .allall {
+  position: absolute;
+  right: 30rpx;
+}
+.container .fukuan .allall .all {
+  display: flex;
+  margin-bottom: 20rpx;
+  margin-top: 30rpx;
+}
+.container .fukuan .allall .queren {
+  display: flex;
+}
+.container .fukuan .allall .queren .qx {
+  margin-right: 50rpx;
+  width: 140rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  border: 2rpx solid #d5d5d5;
+  border-radius: 50rpx;
+  font-size: 26rpx;
+  text-align: center;
+}
+.container .fukuan .allall .queren .qr {
+  margin-right: 20rpx;
+  width: 140rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  border: 2rpx solid red;
+  border-radius: 50rpx;
+  font-size: 26rpx;
+  text-align: center;
+  color: red;
+}
+.container .fukuan2 {
+  width: 710rpx;
+  height: 720rpx;
+  background-color: #ffffff;
+  border-radius: 5rpx;
+  margin: 0 auto;
+}
+.container .fukuan2 .top {
+  width: 95%;
+  margin: 30rpx auto;
+  height: 45rpx;
+  display: flex;
+  justify-content: space-between;
+  padding: 20rpx 10rpx;
+  border-bottom: 1rpx solid #d7d7d7;
+}
+.container .fukuan2 .top .left {
+  color: #dfaaab;
+}
+.container .fukuan2 .top .right {
+  color: #d7d7d7;
+}
+.container .fukuan2 .bottom {
+  display: flex;
+  margin-top: 30rpx;
+  padding-bottom: 20rpx;
+  border-bottom: 1rpx solid #d7d7d7;
+}
+.container .fukuan2 .bottom .bleft {
+  width: 200rpx;
+  height: 200rpx;
+  background-color: #ffffff;
+  border-radius: 3px;
+  margin-left: 30rpx;
+}
+.container .fukuan2 .bottom .bleft image {
+  width: 100%;
+  height: 100%;
+}
+.container .fukuan2 .bottom .bright {
+  width: 500rpx;
+  margin-left: 20rpx;
+  align-items: center;
+}
+.container .fukuan2 .bottom .bright .rightone {
+  font-size: 28rpx;
+}
+.container .fukuan2 .bottom .bright .righttwo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 34rpx;
+}
+.container .fukuan2 .bottom .bright .righttwo .two-right {
+  margin-right: 20rpx;
+}
+.container .fukuan2 .bottom .bright .righttwo .two-left {
+  color: #d7d7d7;
+}
+.container .fukuan2 .bottom .bright .rightthree {
+  position: absolute;
+  color: #999999;
+  right: 40rpx;
+}
+.container .fukuan2 .allall {
+  position: absolute;
+  right: 30rpx;
+}
+.container .fukuan2 .allall .all {
+  display: flex;
+  margin-bottom: 20rpx;
+  margin-top: 30rpx;
+}
+.container .fukuan2 .allall .queren {
+  display: flex;
+  justify-content: end;
+}
+.container .fukuan2 .allall .queren .qx {
+  margin-right: 50rpx;
+  width: 140rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  border: 2rpx solid #d5d5d5;
+  border-radius: 50rpx;
+  font-size: 26rpx;
+  text-align: center;
+}
+.container .fukuan2 .allall .queren .qr {
+  margin-right: 20rpx;
+  width: 140rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  border: 2rpx solid red;
+  border-radius: 50rpx;
+  font-size: 26rpx;
+  text-align: center;
+  color: red;
+}
+

@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uni-popup": "/components/common/uni-popup/uni-popup",
+    "valid-code": "/components/common/validCode/validCode"
+  }
+}

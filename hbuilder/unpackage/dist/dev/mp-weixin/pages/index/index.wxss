@@ -1,0 +1,26 @@
+
+.section-menu {
+	margin-top: 57rpx;
+	margin-bottom: 47rpx;
+}
+.section .title {
+	padding: 25rpx 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.section .goods-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+.section .goods-list .goods {
+	flex: 1;
+	border-top: 2rpx solid #f5f5f5;
+	border-right: 2rpx solid #f5f5f5;
+	padding: 24rpx;
+	padding-bottom: 42rpx;
+}
+.section .goods:nth-child(2n) {
+	border-right: none;
+}
+

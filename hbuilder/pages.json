@@ -1,0 +1,196 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "微集市"
+			}
+		},
+		{
+			"path": "pages/selection/selection",
+			"style": {
+				"navigationBarTitleText": "优选",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/category/category",
+			"style": {
+				"navigationBarTitleText": "分类",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/cart/cart",
+			"style": {
+				"navigationBarTitleText": "购物车",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/user/center/center",
+			"style": {
+				"navigationBarTitleText": "用户中心",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/user/order/order",
+			"style": {
+				// "navigationBarTitleText": "我的订单",
+				"navigationBarTitleText": "我的订单",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/user/collection/collection",
+			"style": {
+				"navigationBarTitleText": "我的收藏",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/goods/list/list",
+			"style": {
+				"navigationBarTitleText": "商品列表",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/goods/detail/detail",
+			"style": {
+				"navigationBarTitleText": "商品详情",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/user/address/list/list",
+			"style": {
+				"navigationBarTitleText": "收货地址",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/user/address/add/add",
+			"style": {
+				"navigationBarTitleText": "添加地址",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/user/address/edit/edit",
+			"style": {
+				"navigationBarTitleText": "编辑地址",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/user/info/info",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/news/news",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/publish/publish",
+			"style": {
+				"navigationBarTitleText": "发布商品",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path" : "pages/user/login/login",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/changePass/changePass",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/payment/payment",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#555555",
+		"selectedColor": "#771c1d",
+		"backgroundColor": "#fbfbfb",
+		"fontSize": "9px",
+		"list": [ //list数组配置底部菜单
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "/static/tab-bar/home.png",
+				"selectedIconPath": "/static/tab-bar/home_active.png",
+				"text": "首页"
+			},
+
+			{
+				"pagePath": "pages/category/category",
+				"iconPath": "/static/tab-bar/category.png",
+				"selectedIconPath": "/static/tab-bar/category_active.png",
+				"text": "分类"
+			},
+			{
+				"pagePath": "pages/publish/publish",
+				"iconPath": "/static/tab-bar/jiahao.png",
+				"selectedIconPath": "/static/tab-bar/jiahao_active.png",
+				"text": "发布"
+			},
+			{
+				"pagePath": "pages/cart/cart",
+				"iconPath": "/static/tab-bar/cart.png",
+				"selectedIconPath": "/static/tab-bar/cart_active.png",
+				"text": "购物车"
+			},
+			{
+				"pagePath": "pages/user/center/center",
+				"iconPath": "/static/tab-bar/user.png",
+				"selectedIconPath": "/static/tab-bar/user_active.png",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "微商城",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

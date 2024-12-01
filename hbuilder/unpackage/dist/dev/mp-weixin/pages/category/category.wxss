@@ -1,0 +1,16 @@
+
+.search-bar {
+	height: 88rpx;
+	padding: 10rpx;
+	box-sizing: border-box;
+}
+.tab-right {
+	padding: 20rpx;
+}
+.banner {
+	margin-bottom: 42rpx;
+}
+.cate_2nd {
+	margin-top: 72rpx;
+}
+

@@ -1,0 +1,33 @@
+
+.infor {
+	padding: 0 25rpx;
+}
+.avatar {
+	display: flex;
+	justify-content: center;
+	padding-top: 60rpx;
+	padding-bottom: 84rpx;
+}
+.information .cell {
+	display: flex;
+	height: 107rpx;
+	margin-bottom: 41rpx;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1rpx solid #cecece;
+}
+.information .cell .right .button2 {
+	margin-right: 25rpx;
+}
+.information .cell .right .button1 {
+	margin-right: 93rpx;
+}
+
+/* 保存按钮-工具条*/
+.tools-bar {
+	position: fixed;
+	right: 21rpx;
+	bottom: 50rpx;
+	left: 21rpx;
+}
+

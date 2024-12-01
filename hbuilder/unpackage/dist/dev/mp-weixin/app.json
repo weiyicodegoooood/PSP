@@ -1,0 +1,69 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/selection/selection",
+    "pages/category/category",
+    "pages/cart/cart",
+    "pages/user/center/center",
+    "pages/user/order/order",
+    "pages/user/collection/collection",
+    "pages/goods/list/list",
+    "pages/goods/detail/detail",
+    "pages/user/address/list/list",
+    "pages/user/address/add/add",
+    "pages/user/address/edit/edit",
+    "pages/order/order",
+    "pages/user/info/info",
+    "pages/news/news",
+    "pages/publish/publish",
+    "pages/user/login/login",
+    "pages/changePass/changePass",
+    "pages/payment/payment"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "微商城",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#555555",
+    "selectedColor": "#771c1d",
+    "backgroundColor": "#fbfbfb",
+    "fontSize": "9px",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/static/tab-bar/home.png",
+        "selectedIconPath": "/static/tab-bar/home_active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "iconPath": "/static/tab-bar/category.png",
+        "selectedIconPath": "/static/tab-bar/category_active.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/publish/publish",
+        "iconPath": "/static/tab-bar/jiahao.png",
+        "selectedIconPath": "/static/tab-bar/jiahao_active.png",
+        "text": "发布"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "iconPath": "/static/tab-bar/cart.png",
+        "selectedIconPath": "/static/tab-bar/cart_active.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/user/center/center",
+        "iconPath": "/static/tab-bar/user.png",
+        "selectedIconPath": "/static/tab-bar/user_active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

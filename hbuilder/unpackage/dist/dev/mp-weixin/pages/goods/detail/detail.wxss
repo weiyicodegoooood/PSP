@@ -1,0 +1,98 @@
+
+.promotion {
+	display: flex;
+	align-items: center;
+}
+.service {
+	display: flex;
+}
+.service .list {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.service .list .item {
+	flex-basis: 50%;
+	margin-bottom: 20rpx;
+}
+.service .list .item:last-child {
+	margin-bottom: 0;
+}
+
+/* 用户评价 */
+.user-comments .comment .user {
+	display: flex;
+	align-items: center;
+}
+.user-comments .comment .user .nickname {
+	margin: 0 20rpx;
+}
+.user-comments .comment .order-info {
+	display: flex;
+	margin-top: 21rpx;
+	margin-bottom: 33rpx;
+}
+.user-comments .comment .order-info .specs-list {
+	display: flex;
+	margin-left: 18rpx;
+}
+.user-comments .comment .order-info .specs-list .item {
+	margin-right: 18rpx;
+}
+.content .title {
+	padding: 35rpx 0;
+}
+
+/* 工具条 */
+.tools-bar {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 80rpx;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: white;
+	border-top: 1rpx solid #eee;
+}
+.tools-bar .tool {
+	padding: 23rpx;
+	border-right: 1rpx solid #eee;
+}
+.tools-bar .add-cart,
+.tools-bar .instant-purchase {
+	flex: 1;
+}
+.tools-bar-fix {
+	padding-bottom: 80rpx;
+}
+
+/* popup */
+.popup {
+	padding: 20rpx;
+}
+.popup .goods {
+	display: flex;
+	align-items: flex-end;
+	margin-bottom: 46rpx;
+}
+.popup .goods .photo {
+	margin-right: 15rpx;
+}
+.popup .goods .result .specs-list {
+	display: flex;
+	align-items: center;
+	margin-top: 18rpx;
+}
+.popup .specs-tool .list {
+	display: flex;
+	align-items: center;
+	padding-top: 21rpx;
+	padding-bottom: 50rpx;
+}
+.popup .goods .result .specs-list .item,
+.popup .specs-tool .list .item {
+	margin-right: 20rpx;
+}
+

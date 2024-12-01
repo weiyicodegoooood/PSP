@@ -1,0 +1,20 @@
+
+.form .detail,
+.form .switch {
+	flex: 1;
+	padding-right: 20rpx;
+}
+
+/* 添加按钮 */
+.tools-bar {
+	position: fixed;
+	bottom: 20rpx;
+	left: 0;
+	width: 100%;
+	padding: 0 20rpx;
+	box-sizing: border-box;
+}
+.tools-bar-fix {
+	padding-bottom: 100rpx;
+}
+
